@@ -16,11 +16,12 @@ header{
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
-    color: #E5E7EB;
 }
 
 .header-logo{
     font-weight: bold;
+    color: #F9FAF8;
+    font-size: 24px;
 }
 
 .header-links ul{
@@ -30,4 +31,22 @@ header{
 
 .header-links ul li {
     list-style-type: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero{
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+}
+
+.left-hero h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.left-hero p{
+    
 }
