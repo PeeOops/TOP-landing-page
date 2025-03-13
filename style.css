@@ -11,7 +11,7 @@ body{
 }
 
 header{
-    padding: 20px 80px 20px 80px;
+    padding: 20px 120px 20px 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,15 +38,48 @@ header{
 .hero{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     background-color: #1F2937;
+    padding: 20px 120px 100px 120px;
+    flex: 1;
+}
+
+.left-hero{
+    flex-basis: 40%;
+}
+
+.right-hero{
+    flex-basis: auto;
 }
 
 .left-hero h1{
-    font-size: 48px;
+    font-size: 35px;
     color: #F9FAF8;
     font-weight: 900;
 }
 
 .left-hero p{
-    
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.left-hero button{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+
+.img-placeholder{
+    padding: 85px 100px;
+    background-color: gray;
+}
+
+.img-placeholder p{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-align: center;
 }
