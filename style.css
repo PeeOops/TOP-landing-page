@@ -85,7 +85,7 @@ header{
 }
 
 .info {
-    padding: 40px 120px 80px 120px;
+    padding: 40px 220px 80px 220px;
     display: flex;
     flex-direction: column;
 }
@@ -120,4 +120,25 @@ header{
 
 .list p {
     text-align: center;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    padding: 80px 240px 35px 240px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.quotes{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: justify;
+    color: #1F2937;
+}
+
+.author{
+    text-align: right;
+    font-weight: bold;
 }
